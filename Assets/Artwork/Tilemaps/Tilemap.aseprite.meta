@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638219910129189720
+  platformSettingsDirtyTick: 638220261907359450
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -139,7 +139,147 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  spriteSheetImportData: []
+  spriteSheetImportData:
+  - name: Range_Blue
+    originalName: 
+    pivot: {x: 0.43, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 19
+      width: 8
+      height: 8
+    spriteID: 438f88a275c6b4af99b0314f93957117
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Melle_Blue
+    originalName: 
+    pivot: {x: 0.43, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11
+      y: 19
+      width: 8
+      height: 8
+    spriteID: 3bbe5378f14b54006a17ef3025415c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Range_Pink
+    originalName: 
+    pivot: {x: 0.43, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 11
+      width: 8
+      height: 8
+    spriteID: 915d2d5eb20bf49c38cc05bc9fb90371
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Melle_Pink
+    originalName: 
+    pivot: {x: 0.43, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11
+      y: 11
+      width: 8
+      height: 8
+    spriteID: f10299b2dc8fd4fb59000dbf4e681d52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Sword
+    originalName: 
+    pivot: {x: 0.4372114, y: 0.30849463}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 3
+      width: 8
+      height: 8
+    spriteID: 028505785806d4d7f927af09311d63c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Bow
+    originalName: 
+    pivot: {x: 0.6852267, y: 0.4874423}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 11
+      y: 3
+      width: 8
+      height: 8
+    spriteID: 7895f9edd92ca463a8ba6f878925b2d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Arrow
+    originalName: 
+    pivot: {x: 0.7040632, y: 0.43093252}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 19
+      y: 3
+      width: 8
+      height: 8
+    spriteID: 9b41d1d1d93974ef890905b7717b704e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: -1215754456
@@ -151,10 +291,10 @@ ScriptedImporter:
     - name: Tilemap
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 232
-        width: 8
-        height: 8
+        x: 1
+        y: 209
+        width: 21
+        height: 23
       spriteId: 3fedbf55861a74d6a9a772239b9ac533
     linkedCells: []
     parentIndex: -1
