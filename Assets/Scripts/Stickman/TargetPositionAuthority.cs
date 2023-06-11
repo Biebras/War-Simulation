@@ -4,16 +4,16 @@ using Unity.Mathematics;
 
 namespace Stickman
 {
-    public class TargetAuthority : MonoBehaviour
+    public class TargetPositionAuthority : MonoBehaviour
     {
         public float2 Position;
         
-        public class Baker : Baker<TargetAuthority>
+        public class Baker : Baker<TargetPositionAuthority>
         {
-            public override void Bake(TargetAuthority authoring)
+            public override void Bake(TargetPositionAuthority authoring)
             {
                 var entity = GetEntity(TransformUsageFlags.Dynamic);
-                AddComponent(entity, new Target
+                AddComponent(entity, new TargetPosition
                 {
                     Position = authoring.Position
                 });
@@ -21,7 +21,7 @@ namespace Stickman
         }
     }
     
-    public struct Target : IComponentData
+    public struct TargetPosition : IComponentData
     {
         public float2 Position;
     }
