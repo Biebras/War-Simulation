@@ -12,8 +12,12 @@ namespace Stickman
                      SystemAPI.Query<RefRW<LocalTransform>, RefRO<TargetPosition>, RefRO<Speed>>())
             {
                 float2 direction = target.ValueRO.Position - transform.ValueRO.Position.xy;
-                float2 velocity = math.normalize(direction) * speed.ValueRO.Value * SystemAPI.Time.DeltaTime;
-                transform.ValueRW.Position.xy += velocity;
+                
+                if (math.lengthsq(direction) > 0.0001f)
+                {
+                    float2 velocity = math.normalize(direction) * speed.ValueRO.Value * SystemAPI.Time.DeltaTime;
+                    transform.ValueRW.Position.xy += velocity;
+                }
             }
         }
     }
